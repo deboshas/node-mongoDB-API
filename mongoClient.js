@@ -19,7 +19,7 @@ MongoClient.connect('mongodb://localhost:27017/ToDoApp', (error, db) => {
 
     //});
 
-    db.collection('Users').insert({ _id: new ObjectID(), Name: "Debojyoti", Password: "1234" }, (err, response) => {
+    db.collection('Users').insert({ _id: new ObjectID(), Name: "RaiLovesRio", Password: "1234" }, (err, response) => {
 
         if (err) {
             return console.log("unable to insert", err);
